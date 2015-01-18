@@ -32,6 +32,7 @@ if [ "$(uname)" == "Darwin" ]; then
 	read DISK
 	echo "Path to DMG file: (example: /Users/Bob/Desktop/foo.dmg)"
 	read DMG
+	echo ""
 
 	echo "Copying "$DMG" to "$DISK
 	mkdir /.dmgtosd
@@ -44,6 +45,8 @@ if [ "$(uname)" == "Darwin" ]; then
 	pv -p -e -r -t -r /.dmgtosd/bar.img | dd of=$DISK
 	sleep 1
 	rm -r /.dmgtosd
+	echo ""
+	
 	echo "Success. Everythind is complete!"
 	exit 0
 else
