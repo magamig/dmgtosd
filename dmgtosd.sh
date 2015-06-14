@@ -32,7 +32,6 @@ if [ "$(uname)" == "Darwin" ]; then
 	read -p "Path to DISK: (example: /dev/disk2): `echo $'\n> '`" DISK
 	echo "Path to DMG file: (example: /Users/Bob/Desktop/foo.dmg)"
 	read -p "Path to DMG file: (example: /Users/Bob/Desktop/foo.dmg): `echo $'\n> '`" DMG
-	echo ""
 
 	echo "Copying "$DMG" to "$DISK
 	mkdir /.dmgtosd
