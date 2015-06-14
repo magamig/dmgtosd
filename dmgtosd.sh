@@ -2,9 +2,7 @@
 
 #    DMG to SD restore [OSX] 
 #    
-#    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 
-#    License: http://creativecommons.org/licenses/by-nc-sa/4.0/
-#    2015 magamig
+#    Copyright (C) 2015 magamig
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -27,13 +25,13 @@ then
 fi
 
 if [ "$(uname)" == "Darwin" ]; then
-	echo "DMG to SD card - Restore"
-	echo ""
+	echo "###########################################"
+	echo "###	DMG to SD card - restore	###"
+	echo -e "###########################################\n"
 
-	echo "Path to DISK: (example: /dev/disk2)"
-	read DISK
+	read -p "Path to DISK: (example: /dev/disk2): `echo $'\n> '`" DISK
 	echo "Path to DMG file: (example: /Users/Bob/Desktop/foo.dmg)"
-	read DMG
+	read -p "Path to DMG file: (example: /Users/Bob/Desktop/foo.dmg): `echo $'\n> '`" DMG
 	echo ""
 
 	echo "Copying "$DMG" to "$DISK
