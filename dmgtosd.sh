@@ -2,7 +2,9 @@
 
 #    DMG to SD restore [OSX] 
 #    
-#    Copyright (C) 2015 magamig
+#    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 
+#    License: http://creativecommons.org/licenses/by-nc-sa/4.0/
+#    2015 magamig
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
