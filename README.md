@@ -4,7 +4,7 @@ Simple scrip that allows users to restore a .DMG image file to a SD card, the on
 
 **MUST be run as root!**
 
-#Before Runnig
+## Before Runnig
 
 To be able to run this script, please install Homebrew:
 ```
@@ -18,7 +18,7 @@ brew install pv
 
 > pv - Pipe Viewer - is a terminal-based tool for monitoring the progress of data through a pipeline. It can be inserted into any normal pipeline between two processes to give a visual indication of how quickly data is passing through, how long it has taken, how near to completion it is, and an estimate of how long it will be until completion.
 
-#How to run
+## How to run
 
 To run this script just run this command in the terminal
 ```
