@@ -48,7 +48,7 @@ if [ "$(uname)" == "Darwin" ]; then
 	rm -r /.dmgtosd
 	echo ""
 	
-	echo "Success. Everythind is complete!"
+	echo "Success. Everything is complete!"
 	exit 0
 else
 	echo "This script is designed for OS X only."
